@@ -1,0 +1,6 @@
+{
+    "require": {
+        "spatie/laravel-backup": "^6.11",
+        "mike42/escpos-php": "^3.0"
+    }
+}

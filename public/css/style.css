@@ -1,0 +1,176 @@
+/* ----------Staff------------------------- */
+
+:root {
+    --primary-color: rgb(26, 152, 156);
+    --secondary-color: rgb(24, 132, 136);
+  }
+
+  .staff{
+      background-color: #f8f8f8;
+  }
+.staff .top-nav{
+    padding: 1rem 7rem;
+    background-color: var(--primary-color);
+    
+}
+.staff .main-side-bar{
+    padding-top: 3rem;
+    background-color: var(--secondary-color);
+    height: 200vh;
+}
+
+.staff a{
+    color: white;
+    text-decoration: none;
+}
+.staff .main-side-bar a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: .8rem 1rem;
+}
+
+.staff .main-side-bar a:hover{
+    background-color: orange;
+}
+
+.staff .main-content{
+    width: 50rem;
+}
+
+.staff .app-btn{
+    background-color: var(--secondary-color);
+    outline: none;
+    border: 0rem;
+    padding: .5rem 1.5rem;
+    color: white;;
+    border-radius: .5rem;
+}
+
+.staff span{
+    font-size: 10px;
+    color:rgb(224, 39, 39);
+
+}
+
+.user-nav{
+    height: 40px;
+    width: 15rem;
+    margin-right: 1rem;
+}
+
+.card{
+    margin: 3rem 1rem !important;
+}
+
+.today{
+    margin-top: 2rem;
+}
+.today a{
+    color: black !important;
+    border: 2px solid var(--secondary-color);
+    display: block;
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+    padding: .5rem 0rem;
+    font-size: 20px;
+}
+
+.today a:hover{
+    background-color: var(--secondary-color);
+    color: white !important;
+}
+
+label{
+    font-weight: bolder;
+}
+
+.dashboard {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.dashboard .item{
+    width: 100%;
+    height: 8rem;
+    border-radius: .5rem;
+    padding-top: .5rem;
+
+}
+
+.dashboard .row{
+    margin-top: 1rem;
+}
+
+.col-one{
+    background-color: #ca2a2a;
+}
+.col-two{
+    background-color: #e68f33;
+}
+.col-three{
+    background-color: #8bc833;
+}
+.col-four{
+    background-color: #35bbbb;
+}
+.col-five{
+    background-color: #285dae;
+    border: 2px solid #5486d1
+}
+.col-six{
+    background-color: #9b26d0;;
+    border: 2px solid #bb59e9;
+}
+
+.dashboard h3{
+    font-size: 3rem;
+    color: white;
+}
+
+.receipt{
+    width: 313px;
+
+}
+.receipt table {
+    font-size: 11px;
+}
+h4{
+    border: 2px solid #000;
+    width: 200px;
+    font-size: 16px;
+    padding: .5rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.receipt{
+    font-size: 13px;
+}
+
+.spacing{
+    margin: 1rem;
+  }
+.header{
+    text-align: center;
+}
+h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+table.captin-order{
+    font-size: 10px;
+}
+table.captin-order th{
+    border: 1px solid #000;
+    padding: 1px 5px;
+}
+@media print
+{    
+    .no-print
+    {
+        display: none !important;
+    }
+}
